@@ -138,5 +138,10 @@ body{
 span{
     color: red;
     font-weight: bold;
-
+}
+/* Change button color on hover */
+button:hover{
+    background-color: #ffff33;
+    color:#000;
+    font-size: 18px;
 }
