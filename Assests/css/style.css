@@ -129,3 +129,8 @@ body{
     border: none;
     box-shadow: 0 0 10px #000;
 }
+/* Change link color on hover */
+.thumbnail a:hover{
+    background-color: #ffff33;
+    color: #000;
+}
