@@ -1,5 +1,6 @@
 # My_Portfolio
 This is a simple lading page of my portfolio helping document education,work samples and skills that can help in applying jobs college or even or even training programs. 
+
 ### Contributors 
 Feel free to comment, critique or even submit a pull request. 
 
@@ -15,9 +16,9 @@ Below is an image describing more about my portfolio
 
 ## Technologies Used
 * HTML
-
-* CSS (Bootstrap css framework)
 * JavaScript 
+* CSS (Bootstrap css framework)
+
 
 ## Support and contact details 
 If your have any issue, what to contribute to the code, have question? Contact me through
