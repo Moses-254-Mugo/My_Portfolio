@@ -159,3 +159,17 @@ button:hover{
     background-color: #f2f2f2;
     padding: 20px;
 }
+/* Style social media icon */
+
+.social_media li{
+    list-style-type: none;
+    display: inline-block;
+
+}
+/* Change icon on effects on hover */
+.social_media li:hover{
+    font-size: 18px;
+    box-shadow: 0 0 5px #000;
+    border: none;
+    border-radius: 100%;
+}
