@@ -16,5 +16,12 @@ body{
     align-items: center;
     background-color: #000;
     color: #fff;
+}
+
+/* Style logo */
+.logo{
+    font-size: 25px;
+    margin: 4px;
+    color: #ffff33;
 
 }
