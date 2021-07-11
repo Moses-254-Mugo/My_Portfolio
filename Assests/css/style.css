@@ -66,3 +66,13 @@ body{
         padding: .5em 1rem;
     }
 }
+
+/* Style banner section */
+.banner{
+    background: url("../images/Mose_Mugo.jpg") no-repeat center;
+    background-size: cover;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
