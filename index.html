@@ -4,9 +4,197 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assests/bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="./Assests/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./Assests/css/style.css">
     <title>My Portfolio</title>
 </head>
 <body>
+    <!-- Container (Navigation section) -->
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>   
+        <div class="links">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#project">PROJECT</a></li>
+                <li><a href="#skills">SKILL</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Container (Banner section) -->
+    <div class="container" id="home">
+        <div class="banner">
+            <div class="label">
+                <h1>Hello!</h1>
+                <h5>My Name is Moses Kinyua Mugo<br> and I am a Web Developer.</h5>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Container (About Section) -->
+    <div class="container" id="about">
+        <div class="row">
+            <h1>About me</h1>
+            <h5>----- <span>Who I am</span> -----</h5>
+            <div class="col-sm-6">
+                <a href="./Assests/images/mose.jpg" class="thumbnail">
+                     <img class="image" src="./Assests/images/mypic.jpg" alt="Art" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-sm-6">
+                <h2>I'm Moses and I'm a Web Developer</h2>
+                <p>I am a graduate student in the Department of Science and Computer Technology at the University 
+                    of Jomo Kenyatta University  of Agriculture and Technology (JKUAT) in year 2020. I have a Bachelor 
+                    of  Science in Information Technology (IT).</p>
+                <p>Previously, I worked at JKUAT  industrial park as a Computer Assembly Technician where I worked on 
+                    Assembling both census devices and computer devices (Hardware parts), troubleshooting of hardware 
+                    and software, maintenance of hardware devices. </p>
+                <p>My main reason why is decided learn coding at Moringa school is that Computer programming is important 
+                    today because so much of our world is automated. Humans need to be able to control the interaction 
+                    between people and machines. Since computers and machines are able to do so efficiently and accurately, 
+                    we use computer programming to harness that computing power. </p>
+                <p>My interest lie in solving problems related to large scale distributed software systems. </p>
+            </div>
+        </div>
+    </div>
+
+     <!-- Container (Project Section) -->
+     <div class="container-fluid" id="project">
+        <div class="row">
+            <h1>Projects</h1>
+
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="./Assests/images/Anitas-kitchen.PNG" alt="fox" style="width: 100%;">
+                    <p>Anitas Kitchen</p>
+                    <a href="#" target="_blank">Click to View</a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="./Assests/images/favorite-Band.png" alt="fox" style="width: 100%;">
+                    <p>Favorite Band</p>
+                    <a href="#" target="_blank">Click to View</a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="./Assests/images/landing-page.PNG" alt="fox" style="width: 100%;">
+                    <p>Responsive lading</p>
+
+                    <a href="#" target="_blank">Click to View</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- Container (Skills section) -->
+     <div class="container" id="skills">
+        <div class="row skill"> 
+            <h1>MY Skills</h1>
+            <h5>-----<span>What I Know</span> -----</h5>
+            <div class="col-sm-6">
+                <h4>My Creative skills & experience</h4>
+                <p>My skills, <strong>Programming/Scripting languages</strong>: PHP JavaScript, CSS, HTML.
+                     <strong>Technologies/Environment:</strong> Linux, windows. <strong>Interpersonal skills:</strong> 
+                     Strong verbal and written communication skill, faster learner </p>
+            </div>
+            <div class="col-sm-6">
+                <p>HTML</p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" style="width: 99%;"></div>
+                    99%
+                </div>
+                <p>CSS</p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" style="width: 70%;"></div>
+                    70%
+                </div>
+                <p>JavaScript</p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" style="width: 50%;"></div>
+                    50%
+                </div>
+                <p>PHP</p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" style="width: 20%;"></div>
+                    20%
+                </div>
+                <p>MySQL</p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" style="width: 65%;"></div>
+                    65%
+                </div>
+                <p>Design</p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" style="width: 75%;"></div>
+                    75%
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div class="container-fluid" id="contact">
+        <div class="row">
+            <h1>Contact me</h1>
+            <h5>----- <span>Get in touch </span>-----</h5>
+            
+            <div class="col-sm-5">  
+                <p>I’m always looking to collaborate with new people. If you have a project
+                     idea in mind, please don’t hesitate to get in touch. Looking forward
+                      to hearing from you.</p>
+                <p><span class="glyphicon glyphicon-map-maker"></span>Nairobi, Kenya</p>
+                <p><span class="glyphicon glyphicon-phone"></span>+245719817789</p>
+                <p><span class="glyphicon glyphicon-envelope"></span>moseskinyua12@gmail.com</p>
+
+                <div class="social_media">
+                    <ul>
+                        <li><a href="https://www.instagram.com/mose_mugo/" target="_blank"><img src="./Assests/images/instagram.png" alt="Instagram"style=" width:60px; border-radius: 100%;"></a></li>
+                        <li><a href="https://touch.facebook.com/mose.mugoKinyua"target="_blank"><img src="./Assests/images/facebook_logo.png" alt="Facebook icon" style=" width:60px; border-radius: 100%;"></a></li>
+                        <li><a href="https://twitter.com/home" target="_blank"><img src="./Assests/images/twitter-removebg.png" alt="Twitter icon" style=" width:60px; border-radius: 100%;"></a></li>
+                        <li><a href="https://github.com/Moses-254-Mugo" target="_blank"><img src="./Assests/images/github.png" alt="GitHub"style=" width:60px; border-radius: 100%;"></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-7">  
+                <div class="row"> 
+                    <div class="col-sm-6 form-group">
+                        <input type="text" class="form-control" id="name" placeholder="Name" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input type="email" class="form-control" id="email" placeholder="Email" required>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                    </div>
+                </div>
+                <div class="row">
+                   <div class="col-sm-12 form-group">
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Message" rows="5"></textarea>
+                   </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-warning btn-lg" type="button">Send</button>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+
     
+
 </body>
 </html>
