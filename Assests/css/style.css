@@ -134,3 +134,9 @@ body{
     background-color: #ffff33;
     color: #000;
 }
+/* Style h1 & h6 of container about, project, skills and contact */
+span{
+    color: red;
+    font-weight: bold;
+
+}
