@@ -23,5 +23,24 @@ body{
     font-size: 25px;
     margin: 4px;
     color: #ffff33;
+}
 
+/* Style links */
+.links ul{
+    margin: 0;
+    padding: 0;
+    display: flex ;
+}
+.links li{
+    list-style: none;
+}
+.links li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 16px;
+    display: block;
+}
+.links a:hover{
+    background-color: #ffff33;
+    color: #000;
 }
