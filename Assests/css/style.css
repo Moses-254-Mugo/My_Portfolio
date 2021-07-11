@@ -97,3 +97,9 @@ body{
     text-align: center;
     font-weight: bold;
 }
+
+/* Style image in about container */
+.image{
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+}
