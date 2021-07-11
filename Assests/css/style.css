@@ -7,5 +7,14 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
+}
+
+/* Style navigation bar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
 
 }
