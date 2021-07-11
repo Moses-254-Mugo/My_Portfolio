@@ -92,3 +92,8 @@ body{
     padding: 20px;
     margin: 10px;
 }
+/* Style h1 & h5 of grid section  */
+.row h1, h5{
+    text-align: center;
+    font-weight: bold;
+}
