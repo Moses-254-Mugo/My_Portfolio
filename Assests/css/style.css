@@ -44,3 +44,25 @@ body{
     background-color: #ffff33;
     color: #000;
 }
+/* Create responsive navigation bar - makes links lie on top of each other instead of next to each other */
+@media screen and (max-width: 600px){
+    .links {
+        /* flex-direction: column;
+        align-items: flex-start; */
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .links ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .links li{
+        text-align: center;
+    }
+    .links li a{
+        padding: .5em 1rem;
+    }
+}
